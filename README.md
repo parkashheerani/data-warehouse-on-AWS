@@ -1,4 +1,4 @@
-# Project 3: Create a Data Warehouse with AWS Redshift
+# Create a Data Warehouse with AWS Redshift
 
 ## Summary
 * [Introduction](#Introduction)
@@ -47,6 +47,8 @@ from buckets and copy them into staging tables inside AWS Redshift.
 
 <b>Log Dataset structure:</b>
 ![Log Dataset](./images/log_dataset.jpg)
+
+
 
 <b>Song dataset structure:</b>
 ~~~~
