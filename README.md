@@ -45,17 +45,6 @@ have a common prefix on folders
 We need to ingest this data into AWS Redshift using COPY command. This command get JSON files
 from buckets and copy them into staging tables inside AWS Redshift.
 
-<b>Log Dataset structure:</b>
-![Log Dataset](./images/log_dataset.jpg)
-
-
-
-<b>Song dataset structure:</b>
-~~~~
-{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null
-, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", 
-"title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
-~~~~
 --------------------------------------------
 
 ### Data Warehouse Schema Definition
